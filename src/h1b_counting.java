@@ -183,8 +183,8 @@ public class h1b_counting {
 			// Write the lines one by one
 			for (String line : content) {
 				//line += System.getProperty("line.separator");
-				bufferedWriter.newLine();
 				bufferedWriter.write(line);
+                bufferedWriter.newLine();
 			}
 		} catch (IOException e) {
 			System.err.println("Error writing the file : ");
